@@ -1,0 +1,38 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://i3pddgj4erwj"]
+
+[sub_resource type="Shader" id="Shader_ncujk"]
+code = "shader_type spatial;
+
+render_mode unshaded;
+
+uniform vec3 reference_direction : source_color = vec3(0.0, 1.0, 0.0);
+uniform vec3 color_low_angle : source_color = vec3(1.0, 0.0, 0.0); // Color for faces parallel
+uniform vec3 color_high_angle : source_color = vec3(0.0, 0.0, 1.0); // Color for faces perpendicular
+
+varying vec3 normal;
+
+void vertex() {
+    normal = NORMAL; // Make the normal the color.
+}
+
+void fragment() {
+    // Calculate the cosine of the angle between the normal and the reference direction
+    float cos_angle = dot(normal, normalize(reference_direction));
+
+    // Map the cosine value to a range [0, 1]
+    float angle_factor = abs(cos_angle);
+
+    // Interpolate between the low and high angle colors based on the angle factor
+    vec3 final_color = mix(color_low_angle, color_high_angle, angle_factor);
+
+    // Set the final color output
+    ALBEDO = final_color;
+}
+"
+
+[resource]
+render_priority = 0
+shader = SubResource("Shader_ncujk")
+shader_parameter/reference_direction = Color(0, 0.113725, 0.486275, 1)
+shader_parameter/color_low_angle = Color(0.868985, 0.868985, 0.868985, 1)
+shader_parameter/color_high_angle = Color(0, 0, 0, 1)
