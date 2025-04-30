@@ -1,0 +1,98 @@
+using UnityEngine;
+
+public class MusicController: MonoBehaviour
+{
+    [Header("Audio Sources for crossfading)")]
+    public AudioSource source1;
+    public AudioSource source2;
+
+    [Header("Playlist")]
+    public AudioClip[] playlist;
+
+    [Header("Settings")]
+    public float crossfadeDuration = 3.0f; // seconds
+    public float switchBeforeEnd = 5.0f;    // start fading before the end
+
+    private int currentClipIndex = 0;
+    private AudioSource currentSource;
+    private AudioSource nextSource;
+    private bool isCrossfading = false;
+
+    private static MusicController instance;
+
+    // Persist Music Controller across scenes
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject); // Prevent duplicates
+        }
+    }
+
+    private void Start()
+    {
+        currentSource = source1;
+        nextSource = source2;
+
+        playlist = playlist.Shuffle();
+
+        if (playlist.Length > 0)
+        {
+            PlayClip(currentSource, playlist[currentClipIndex]);
+            currentSource.volume = 0.5f;
+        }
+    }
+
+    private void Update()
+    {
+        if (!isCrossfading && currentSource.isPlaying)
+        {
+            if (currentSource.clip.length - currentSource.time <= switchBeforeEnd)
+            {
+                CrossfadeToNextSong();
+            }
+        }
+    }
+
+    private void CrossfadeToNextSong()
+    {
+        isCrossfading = true;
+
+        // Prepare next clip
+        currentClipIndex = (currentClipIndex + 1) % playlist.Length;
+        AudioClip nextClip = playlist[currentClipIndex];
+
+        PlayClip(nextSource, nextClip);
+        nextSource.volume = 0f;
+
+        // Fade volumes using LeanTween
+        LeanTween.value(gameObject, currentSource.volume, 0f, crossfadeDuration)
+            .setOnUpdate((float val) => { currentSource.volume = val; });
+
+        LeanTween.value(gameObject, nextSource.volume, 0.5f, crossfadeDuration)
+            .setOnUpdate((float val) => { nextSource.volume = val; })
+            .setOnComplete(() => {
+                currentSource.Stop();
+                SwapSources();
+                isCrossfading = false;
+            });
+    }
+
+    private void PlayClip(AudioSource source, AudioClip clip)
+    {
+        source.clip = clip;
+        source.Play();
+    }
+
+    private void SwapSources()
+    {
+        AudioSource temp = currentSource;
+        currentSource = nextSource;
+        nextSource = temp;
+    }
+}

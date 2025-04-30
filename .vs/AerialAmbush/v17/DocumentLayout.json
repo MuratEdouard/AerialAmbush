@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|c:\\users\\edoua\\documents\\unityprojects\\aerialambush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\level\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\music\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\music\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\ui\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|c:\\users\\edoua\\documents\\unityprojects\\aerialambush\\assets\\scripts\\coin\\coincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coin\\coincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|c:\\users\\edoua\\documents\\unityprojects\\aerialambush\\assets\\scripts\\camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "CoinController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Coin\\CoinController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Coin\\CoinController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Coin\\CoinController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Coin\\CoinController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T19:19:16.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Camera\\Camera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\Camera.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Camera\\Camera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:59:58.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MusicController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Music\\MusicController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Music\\MusicController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Music\\MusicController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Music\\MusicController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:44:47.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAcwHgAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAALYAAAAAAAAAAAAhwMAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T20:32:00.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Level\\LevelController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Level\\LevelController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Level\\LevelController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Level\\LevelController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:54:27.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\UI\\UIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\UI\\UIController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAewC8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:13:18.978Z",
               "EditorCaption": ""
             }
           ]

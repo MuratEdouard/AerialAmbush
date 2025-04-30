@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 461590683399341856}
   - component: {fileID: 9057029729772348183}
   m_Layer: 6
-  m_Name: Cylinder.072
-  m_TagString: Untagged
+  m_Name: Cloud.05
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,8 +123,8 @@ GameObject:
   - component: {fileID: 1160049977114719830}
   - component: {fileID: 5643136174716462497}
   m_Layer: 6
-  m_Name: Cylinder.075
-  m_TagString: Untagged
+  m_Name: Cloud.08
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,8 +233,8 @@ GameObject:
   - component: {fileID: 5593525404835524537}
   - component: {fileID: 5387629746319505568}
   m_Layer: 6
-  m_Name: Cylinder.073
-  m_TagString: Untagged
+  m_Name: Cloud.06
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -343,8 +343,8 @@ GameObject:
   - component: {fileID: 4447086871530482731}
   - component: {fileID: 1277073849349888751}
   m_Layer: 6
-  m_Name: Cylinder.071
-  m_TagString: Untagged
+  m_Name: Cloud.04
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -467,12 +467,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 9.075859, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2.1, y: 2.1, z: 2.1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 807679122132387233}
   - {fileID: 7429375055789245251}
   - {fileID: 5962136530164618330}
-  - {fileID: 807679122132387233}
   - {fileID: 198960738331567399}
   - {fileID: 4878827981662166585}
   - {fileID: 1670907601033504421}
@@ -514,8 +514,8 @@ GameObject:
   - component: {fileID: 8264916576129597810}
   - component: {fileID: 8898972803569578668}
   m_Layer: 6
-  m_Name: Cylinder.087
-  m_TagString: Untagged
+  m_Name: Cloud.13
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -624,8 +624,8 @@ GameObject:
   - component: {fileID: 5674056951070529159}
   - component: {fileID: 6048947566855691643}
   m_Layer: 6
-  m_Name: Center
-  m_TagString: Untagged
+  m_Name: Cloud.Center
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -733,8 +733,8 @@ GameObject:
   - component: {fileID: 1352944242787450862}
   - component: {fileID: 4825379552637058012}
   m_Layer: 6
-  m_Name: Cylinder.088
-  m_TagString: Untagged
+  m_Name: Cloud.14
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -843,8 +843,8 @@ GameObject:
   - component: {fileID: 7125794490567444570}
   - component: {fileID: 2579059250873638348}
   m_Layer: 6
-  m_Name: Cylinder.084
-  m_TagString: Untagged
+  m_Name: Cloud.10
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -953,8 +953,8 @@ GameObject:
   - component: {fileID: 8228021340129495781}
   - component: {fileID: 1918933123117178728}
   m_Layer: 6
-  m_Name: Cylinder.089
-  m_TagString: Untagged
+  m_Name: Cloud.15
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1063,8 +1063,8 @@ GameObject:
   - component: {fileID: 112548958507708509}
   - component: {fileID: 4581455465615236328}
   m_Layer: 6
-  m_Name: Cylinder.076
-  m_TagString: Untagged
+  m_Name: Cloud.09
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1173,8 +1173,8 @@ GameObject:
   - component: {fileID: 4900916038855275443}
   - component: {fileID: 8810059700004822339}
   m_Layer: 6
-  m_Name: Cylinder.062
-  m_TagString: Untagged
+  m_Name: Cloud.01
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1283,8 +1283,8 @@ GameObject:
   - component: {fileID: 9142384161049837202}
   - component: {fileID: 8753381523763736700}
   m_Layer: 6
-  m_Name: Cylinder.070
-  m_TagString: Untagged
+  m_Name: Cloud.03
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1393,8 +1393,8 @@ GameObject:
   - component: {fileID: 5256237136409448403}
   - component: {fileID: 681010934476698247}
   m_Layer: 6
-  m_Name: Cylinder.063
-  m_TagString: Untagged
+  m_Name: Cloud.02
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1503,8 +1503,8 @@ GameObject:
   - component: {fileID: 3376977140184920826}
   - component: {fileID: 6099014665127399253}
   m_Layer: 6
-  m_Name: Cylinder.090
-  m_TagString: Untagged
+  m_Name: Cloud.16
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1613,8 +1613,8 @@ GameObject:
   - component: {fileID: 3260802606394984457}
   - component: {fileID: 8954870256731383729}
   m_Layer: 6
-  m_Name: Cylinder.085
-  m_TagString: Untagged
+  m_Name: Cloud.11
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1723,8 +1723,8 @@ GameObject:
   - component: {fileID: 7454813750712237184}
   - component: {fileID: 4636067333227218710}
   m_Layer: 6
-  m_Name: Cylinder.086
-  m_TagString: Untagged
+  m_Name: Cloud.12
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1833,8 +1833,8 @@ GameObject:
   - component: {fileID: 2860907219983735120}
   - component: {fileID: 8012816450414582769}
   m_Layer: 6
-  m_Name: Cylinder.074
-  m_TagString: Untagged
+  m_Name: Cloud.07
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
