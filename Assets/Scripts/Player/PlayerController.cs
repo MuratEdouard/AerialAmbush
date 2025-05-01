@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using GLTFast.Schema;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 using Animation = UnityEngine.Animation;
 

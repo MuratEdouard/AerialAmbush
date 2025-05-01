@@ -1,7 +1,4 @@
-using GLTFast.Schema;
-using UnityEditor.UI;
 using UnityEngine;
-using UnityEngine.UIElements;
 using System.Collections;
 
 public class CoinController : MonoBehaviour

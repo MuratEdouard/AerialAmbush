@@ -1,14 +1,13 @@
-using System.Reflection;
-using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms;
-using UnityEngine.UIElements;
-using static Unity.Collections.AllocatorManager;
 
 public class LevelController : MonoBehaviour
 {
+    [Header("Input")]
+    public InputAction escInput;
 
+    [Header("Spawns")]
     public GameObject missiles;
     public GameObject missilePrefab;
 
@@ -24,6 +23,10 @@ public class LevelController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Enable esc input
+        escInput.performed += OnEscPressed;
+        escInput.Enable();
+
         uiController = FindFirstObjectByType<UIController>();
         playerController = FindFirstObjectByType<PlayerController>();
         
@@ -129,5 +132,19 @@ public class LevelController : MonoBehaviour
     {
         // Reload the active scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void OnEscPressed(InputAction.CallbackContext context)
+    {
+        // Disable input
+        escInput.performed -= OnEscPressed;
+        escInput.Disable();
+
+        // Destroy MusicController
+        MusicController musicController = FindFirstObjectByType<MusicController>();
+        Destroy(musicController.gameObject);
+
+        // Load the menu scene
+        SceneManager.LoadScene("Menu");
     }
 }
