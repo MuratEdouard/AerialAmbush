@@ -7,6 +7,7 @@ public class UIController : MonoBehaviour
 {
     public UnityEvent countdownCompleted;
     public UnityEvent allCoinsCollected;
+    public UnityEvent gameWon;
 
     private int nbCoinsCollected = 0;
     private int nbCountdown = 3;
@@ -14,17 +15,14 @@ public class UIController : MonoBehaviour
     private VisualElement root;
     private Label countdownLabel;
     private Label winLabel;
-    private Label loseLabel;
 
     void Start()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
         countdownLabel = root.Q<Label>("CountdownLabel");
         winLabel = root.Q<Label>("WinLabel");
-        loseLabel = root.Q<Label>("LoseLabel");
 
         winLabel.style.display = DisplayStyle.None;
-        loseLabel.style.display = DisplayStyle.None;
 
         StartCountdown();
     }
@@ -64,17 +62,17 @@ public class UIController : MonoBehaviour
         if (nbCoinsCollected == 5)
         {
             allCoinsCollected.Invoke();
-            ShowWin();
         }
     }
 
     public void ShowWin()
     {
         winLabel.style.display = DisplayStyle.Flex;
+        Invoke(nameof(GameWon), 3f);
     }
 
-    public void ShowLose()
+    public void GameWon()
     {
-        loseLabel.style.display = DisplayStyle.Flex;
+        gameWon.Invoke();
     }
 }

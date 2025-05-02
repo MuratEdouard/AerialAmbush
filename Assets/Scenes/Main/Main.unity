@@ -975,6 +975,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  gameWon:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1535370125}
+        m_TargetAssemblyTypeName: LevelController, Assembly-CSharp
+        m_MethodName: GoToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1244620881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,9 +1180,6 @@ MonoBehaviour:
   - {fileID: -334838469, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
   - {fileID: 1396603045, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
   - {fileID: 1358423981, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
-  progressCompleted:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2064440565
 MonoBehaviour:
   m_ObjectHideFlags: 0

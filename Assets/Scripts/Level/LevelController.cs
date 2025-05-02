@@ -35,6 +35,8 @@ public class LevelController : MonoBehaviour
 
         // Place clouds in a random formation, with cloud center staying in the same spot
         GameObject[] clouds = GameObject.FindGameObjectsWithTag("Cloud");
+        clouds = clouds.Shuffle();
+
         foreach (var cloud in clouds)
         {
             if (cloud.name.ToLower().Contains("center"))
@@ -93,7 +95,6 @@ public class LevelController : MonoBehaviour
 
     public void Win()
     {
-        uiController.ShowWin();
         ExplodeAllMissiles();
 
         // Stop player from moving
@@ -101,14 +102,10 @@ public class LevelController : MonoBehaviour
 
         // Update progress
         ProgressController.instance.OnWin();
-
-        // Restart Game after some time
-        Invoke(nameof(RestartGame), 3.0f);
     }
 
     public void Lose()
     {
-        uiController.ShowLose();
         ExplodeAllMissiles();
 
         // Stop player from moving
@@ -131,13 +128,18 @@ public class LevelController : MonoBehaviour
         }
     }
 
-    private void RestartGame()
+    public void RestartGame()
     {
         // Reload the active scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private void OnEscPressed(InputAction.CallbackContext context)
+    {
+        GoToMenu();
+    }
+
+    public void GoToMenu()
     {
         // Disable input
         escInput.performed -= OnEscPressed;

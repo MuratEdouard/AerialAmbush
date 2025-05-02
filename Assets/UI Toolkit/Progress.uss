@@ -1,9 +1,18 @@
-.image {
+.default {
     background-image: url("project://database/Assets/Art/sprites/ui.png?fileID=1300293054&guid=97dcdf314f072d3428357935834c1aee&type=3#progress_00");
-    -unity-background-scale-mode: scale-to-fit;
-    -unity-slice-scale: 1px;
-    -unity-slice-type: sliced;
+    -unity-background-scale-mode: stretch-to-fill;
+    overflow: visible;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    align-self: flex-end;
+    justify-content: flex-start;
+    background-size: 128px 128px;
+    transform-origin: right top;
     background-position-x: right 0;
     background-position-y: top 0;
-    background-size: 128px 128px;
+}
+
+.grown {
+    scale: 2 2;
 }
