@@ -34,7 +34,6 @@ public class MenuController : MonoBehaviour
     private Color unselectedTextColor = new Color(0.4f, 0.22f, 0f);
 
     private bool playSelected = true;
-    private bool quitSelected = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -73,7 +72,6 @@ public class MenuController : MonoBehaviour
     private void OnUpArrowPressed(InputAction.CallbackContext context)
     {
         playSelected = true;
-        quitSelected = false;
 
         playText.color = selectedTextColor;
         quitText.color = unselectedTextColor;
@@ -84,7 +82,6 @@ public class MenuController : MonoBehaviour
     private void OnDownArrowPressed(InputAction.CallbackContext context)
     {
         playSelected = false;
-        quitSelected = true;
 
         playText.color = unselectedTextColor;
         quitText.color = selectedTextColor;

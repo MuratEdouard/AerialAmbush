@@ -29,7 +29,7 @@ public class LevelController : MonoBehaviour
 
         uiController = FindFirstObjectByType<UIController>();
         playerController = FindFirstObjectByType<PlayerController>();
-        
+
         // Initiate random with unique seed
         Random.InitState(System.DateTime.Now.Millisecond + System.DateTime.Now.Second * 1000);
 
@@ -98,6 +98,9 @@ public class LevelController : MonoBehaviour
 
         // Stop player from moving
         playerController.OnWin();
+
+        // Update progress
+        ProgressController.instance.OnWin();
 
         // Restart Game after some time
         Invoke(nameof(RestartGame), 3.0f);

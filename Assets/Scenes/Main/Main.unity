@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 171554289}
   - component: {fileID: 171554288}
   - component: {fileID: 171554287}
+  - component: {fileID: 171554291}
   - component: {fileID: 171554290}
   m_Layer: 0
   m_Name: MusicController
@@ -368,6 +369,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 37c3be2ff7ef88a4aaf3b7f8a4dd6585, type: 3}
   crossfadeDuration: 5
   switchBeforeEnd: 5
+--- !u!114 &171554291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171554283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d84adc1622094a29b4ac495436769e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +1096,97 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2064440561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2064440563}
+  - component: {fileID: 2064440562}
+  - component: {fileID: 2064440564}
+  - component: {fileID: 2064440565}
+  m_Layer: 0
+  m_Name: ProgressController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2064440562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064440561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d84adc1622094a29b4ac495436769e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2064440563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064440561}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2064440564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064440561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67680d2994676194286194a8312f314a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 2064440565}
+  sprites:
+  - {fileID: 1300293054, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: -557416949, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: -1047539366, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: -492943331, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: 550336284, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: 248206538, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: -334838469, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: 1396603045, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  - {fileID: 1358423981, guid: 97dcdf314f072d3428357935834c1aee, type: 3}
+  progressCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2064440565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064440561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 23d19c18d22f45c4cbe00cdb68d9a1bd, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 86316a07f4601a243b6bda9b25898f27, type: 3}
+  m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
 --- !u!1001 &331014449450827914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1337,6 +1441,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 832575519}
+  - {fileID: 2064440563}
   - {fileID: 1535370124}
   - {fileID: 1244620879}
   - {fileID: 171554289}

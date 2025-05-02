@@ -1,7 +1,0 @@
-<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; align-content: flex-start; font-size: 103px;">
-        <ui:Label text="Menu" style="-unity-font-definition: url(&quot;project://database/Assets/Art/fonts/Varela_Round/VarelaRound-Regular.ttf?fileID=12800000&amp;guid=02c74a2f955d97243b1845208b34b956&amp;type=3#VarelaRound-Regular&quot;); -unity-font-style: bold;" />
-        <ui:Button text="Button" />
-        <ui:Button text="Button" />
-    </ui:VisualElement>
-</ui:UXML>

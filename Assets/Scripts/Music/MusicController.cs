@@ -18,20 +18,17 @@ public class MusicController: MonoBehaviour
     private AudioSource nextSource;
     private bool isCrossfading = false;
 
-    private static MusicController instance;
+    public static MusicController instance { get; private set; }
 
-    // Persist Music Controller across scenes
-    void Awake()
+    private void Awake()
     {
-        if (instance == null)
+        if (instance != null && instance != this)
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
+            Destroy(gameObject);
+            return;
         }
-        else
-        {
-            Destroy(gameObject); // Prevent duplicates
-        }
+
+        instance = this;
     }
 
     private void Start()

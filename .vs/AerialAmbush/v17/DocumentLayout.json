@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\level\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|c:\\users\\edoua\\documents\\unityprojects\\aerialambush\\assets\\scripts\\menu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|c:\\users\\edoua\\documents\\unityprojects\\aerialambush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\ui\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|c:\\users\\edoua\\documents\\unityprojects\\aerialambush\\assets\\scripts\\ui\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\missile\\missilecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\missile\\missilecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|c:\\users\\edoua\\documents\\unityprojects\\aerialambush\\assets\\scripts\\progress\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\progress\\progresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\level\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\music\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\menu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\missile\\missilecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\missile\\missilecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E65650E-DD20-9345-8AE0-650B089BFD25}|Assembly-CSharp.csproj|C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\assets\\scripts\\clouds\\cloudscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,24 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Menu\\MenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\MenuController.cs",
-              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Menu\\MenuController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menu\\MenuController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UIController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\UI\\UIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\UI\\UIController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:00:34.045Z",
+              "WhenOpened": "2025-05-02T13:27:30.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ProgressController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Progress\\ProgressController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Progress\\ProgressController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Progress\\ProgressController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Progress\\ProgressController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:11:11.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MissileControler.cs",
               "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Missile\\MissileControler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Missile\\MissileControler.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CloudsController.cs",
               "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Clouds\\CloudsController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Clouds\\CloudsController.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CoinController.cs",
               "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Coin\\CoinController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Coin\\CoinController.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Camera\\Camera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\Camera.cs",
@@ -111,53 +128,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MusicController.cs",
               "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Music\\MusicController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Music\\MusicController.cs",
               "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Music\\MusicController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Music\\MusicController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T20:44:47.033Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:32:00.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "LevelController.cs",
               "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Level\\LevelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level\\LevelController.cs",
               "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Level\\LevelController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Level\\LevelController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAgwJAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAmwGYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T17:54:27.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UIController.cs",
-              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\UI\\UIController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIController.cs",
-              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\UI\\UIController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA3AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:13:18.978Z"
+              "WhenOpened": "2025-04-22T20:32:00.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Menu\\MenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\MenuController.cs",
+              "ToolTip": "C:\\Users\\edoua\\Documents\\UnityProjects\\AerialAmbush\\Assets\\Scripts\\Menu\\MenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu\\MenuController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:00:34.045Z"
             }
           ]
         }
